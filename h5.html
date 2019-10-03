@@ -6,7 +6,18 @@
 </head>
 <body>
     <script>
-        var
+        var i = 1;
+        var sum = 0;
+
+        do {
+            if(i%2==0) {
+                sum +=i;
+            }
+            i++;
+        }
+        while(i<=100);
+
+        document.write("1~100까지의 짝수의 합은 "+sum+"입니다.");
     </script>
 </body>
 </html>
