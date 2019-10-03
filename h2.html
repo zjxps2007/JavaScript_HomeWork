@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Age</title>
+</head>
+<body>
+    <script>
+        var age;
+        age = parseInt(prompt("나이를 입력하세요: "));
+
+        if(age>0&&age<=2) {
+            document.write("당신의 나이는 영아기 입니다.");
+        }
+        else if(age>=3&&age<=5) {
+            document.write("당신의 나이는 유아기 입니다.")
+        }
+        else if(age>=6&&age<=13) {
+            document.write("당신의 나이는 아동기(어린이) 입니다.")
+        }
+        else if(age>=13&&age<=18) {
+            document.write("당신의 나이는 청소년 입니다.")
+        }
+        else if(age>18) {
+            document.write("당신의 나이는 성인 입니다.")
+        }
+
+    </script>
+</body>
+</html>
