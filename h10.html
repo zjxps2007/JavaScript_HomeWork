@@ -6,15 +6,19 @@
 </head>
 <body>
     <script>
-        var i = 1, j=1;
+        var i = 2, j=1;
         do {
-            while (j<=9) {
-
+            do{
+                document.write(i+" X "+j+" = "+i*j+"<br>");
+                j++;
             }
+            while (j<=9);
+
             i++;
-            j++;
+            j=1;
+            document.write("<br>")
         }
-        while(i<=9)
+        while(i<=9);
     </script>
 </body>
 </html>
